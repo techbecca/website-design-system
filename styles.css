@@ -31,7 +31,7 @@ header {
 }
 
 main {
-  padding: 40px;
+  padding: 100px;
 }
 
 .flex {
@@ -44,6 +44,8 @@ main {
 .grid {
   display: grid;
   grid-template-columns: 10% auto;
+  grid-gap: 80px 30px;
+  justify-items: center;
 }
 
 .colors {
