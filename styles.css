@@ -12,10 +12,20 @@
   /* Blues/accents */
   --pale-cerulean: #8db4d4ff;
   --green-blue-crayola: #2d82b7ff;
+  /* CSS HSL */
+  --yellow-orange-color-wheel: hsla(35, 99%, 52%, 1);
+  --mellow-apricot: hsla(33, 86%, 73%, 1);
+  --desert-sand: hsla(28, 67%, 83%, 1);
+  --champagne-pink: hsla(18, 46%, 88%, 1);
+  --magnolia: hsla(278, 27%, 92%, 1);
+  --taupe-gray: hsla(276, 2%, 54%, 1);
+  --eerie-black: hsla(0, 0%, 15%, 1);
+  --pale-cerulean: hsla(207, 45%, 69%, 1);
+  --green-blue-crayola: hsla(203, 61%, 45%, 1);
 }
 
 header {
-  padding: 40px;
+  padding: 100px;
   margin-bottom: 20px;
   border-bottom: 1px solid lightgray;
 }
@@ -48,8 +58,20 @@ main {
   border-radius: 10px;
 }
 
-#yellow-orange {
+#yellow-orange-color-wheel {
   background-color: var(--yellow-orange-color-wheel);
+}
+
+#mellow-apricot {
+  background-color: var(--mellow-apricot);
+}
+
+#desert-sand {
+  background-color: var(--desert-sand);
+}
+
+#champagne-pink {
+  background-color: var(--champagne-pink);
 }
 
 #crayola {
