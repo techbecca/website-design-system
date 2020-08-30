@@ -116,6 +116,26 @@ main {
   justify-content: center;
 }
 
+.font {
+  width: 400px;
+  margin: 10px;
+  padding: 10px 5%;
+  border-radius: 10px;
+  box-shadow: 3px 5px 7px 0px #3e3e3e;
+}
+
+#font1 {
+  font-family: 'Abril Fatface', serif;
+}
+
+#font2 {
+  font-family: Roboto, sans-serif;
+}
+
+#font3 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
 .subtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
